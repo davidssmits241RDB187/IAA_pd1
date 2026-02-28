@@ -1,0 +1,14 @@
+Izgaismošana (Dodge / Color Dodge)
+C=B/(1-A)
+if A=1 then C=max
+
+Apdedzināšana (Burn / Color Burn)
+C=1-(1-B)/A	
+if A=0 then C=min
+
+Tumšināšana (Darken)
+if B<=A then C=B
+if B>A then C=A
+
+Atšķirību analīze (Difference)
+C=|A-B|
