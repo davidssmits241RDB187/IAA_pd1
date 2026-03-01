@@ -47,7 +47,7 @@ def burn(A, B):
             for color in range(3):
                 a = A_clamped[row,column,color]
                 b = B_clamped[row,column,color]
-                if a<=0+1e-6:
+                if a<=1e-6:
                     C[row,column,color]=0.0
                     continue
                 C[row,column,color]=1.0-((1.0-b)/a)
