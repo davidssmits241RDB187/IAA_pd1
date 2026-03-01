@@ -102,6 +102,6 @@ def main(img_a_path, img_b_path):
 
 
 if __name__ == "__main__":
-    img_a_path = "A1.png"
-    img_b_path = "B1.png"
+    img_a_path = "A.jpg"
+    img_b_path = "B.jpg"
     main(img_a_path,img_b_path)
