@@ -102,6 +102,7 @@ def main(img_a_path, img_b_path):
 
 
 if __name__ == "__main__":
-    img_a_path = "A.jpg"
-    img_b_path = "B.jpg"
+
+    img_a_path = input("Enter path for image A: ")
+    img_b_path = input("Enter path for image B: ")
     main(img_a_path,img_b_path)
